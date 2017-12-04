@@ -218,10 +218,11 @@ ul li { font-family: "Nunito Sans", sans-serif; font-size: 14px; margin-bottom: 
 .home .post-list .thumbnail-title { font-size: 2vw; margin-bottom: 3px; line-height: 2.4vw; padding: 0vw 1vw; }
 .home .post-list .thumbnail-subtitle { font-size: 1vw; opacity: .8; }
 .home ul.post-list { margin-top: 54px; }
-.home .self-portrait { width: 50%; display: inline; float: left; }
-.home .self-portrait img { width: 67%; display: block; margin: 71px auto; }
+.home .info-section { display: flex; }
+.home .self-portrait { width: 50%; display: inline; float: left; display: flex; justify-content: center; flex-direction: column; }
+.home .self-portrait img { width: 67%; display: block; margin: auto 0px auto auto; }
 .home .about { width: 50%; display: inline; float: left; }
-.home .about ul { width: 67%; display: block; margin: 135px auto; }
+.home .about ul { width: 67%; display: block; margin: 135px auto; display: flex; justify-content: center; flex-direction: column; }
 .home .clear-float { margin-bottom: 55px; }
 
 .post-content .overview { width: 48%; float: left; }
@@ -241,6 +242,7 @@ ul li { font-family: "Nunito Sans", sans-serif; font-size: 14px; margin-bottom: 
   .home .post-list .thumbnail-info { top: 7.9vw; }
   .home .post-list .thumbnail-title { font-size: 6.5vw; line-height: 7.5vw; }
   .home .post-list .thumbnail-subtitle { font-size: 4vw; }
+  .home .info-section { display: block; }
   .home .self-portrait { width: 100%; display: block; float: initial; }
   .home .self-portrait img { margin: 63px auto 16px auto; }
   .home .about { width: 100%; display: block; float: initial; }

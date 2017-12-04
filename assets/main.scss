@@ -150,15 +150,21 @@ ul {
     }
 
     /*info section*/
+    .info-section {
+        display: flex;
+    }
     .self-portrait {
         width: 50%;
         display: inline;
         float: left;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
     }
     .self-portrait img {
         width: 67%;
         display: block;
-        margin: 71px auto;
+        margin: auto 0px auto auto;
     }
     .about {
         width: 50%;
@@ -169,6 +175,9 @@ ul {
         width: 67%;
         display: block;
         margin: 135px auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
     }
 
     .clear-float {
@@ -256,6 +265,9 @@ h1 {
 }
 
 .home {
+    .info-section {
+        display: block;
+    }
     .self-portrait {
         width: 100%;
         display: block;
