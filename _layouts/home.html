@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+    <div class="home">
+      <div class="wrapper">
+        <h1 class="page-heading category-page">Shari Afuso,<br>Web Designer.</h1>
+        
+        {{ content }}
+
+        <ul class="post-list">
+            {% for post in site.categories.all %}
+            <li>
+              {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+              <!--<span class="post-meta">{{ post.date | date: date_format }}</span>-->
+              <a class="post-link" href="{{ post.url | relative_url }}">
+                <img class="thumbnail-image" src="{{ post.thumbnail-image | escape }}" alt="{{ post.main-banner-alt | escape }}">
+
+                <div class="thumbnail-info">
+                  <p class="thumbnail-title">
+                    {{ post.title | escape }}
+                  </p>
+
+                  <p class="thumbnail-subtitle">
+                    <!--list all categories items.  skip 1st element "all"
+                    if last element in array, don't print a comma-->
+                    {% for category in post.categories offset:1 %}
+                      {% if forloop.last %}
+                        {{ category }}
+                      {% else %}
+                        {{ category }} ,
+                      {% endif %}
+                    {% endfor %}
+                  </p>
+                </div>
+              </a>
+            </li>
+          {% endfor %}
+        </ul>
+
+        <div class="clear-float"></div>
+
+        <div class="border-top">
+          <div class="self-portrait">
+            <img src="images/shari_afuso.jpg" alt="Shari Afuso">
+          </div>
+          <div class="about">
+            <ul>
+              <h2>Info.</h2>
+              <li>818.357.4681</li>
+              <li>shariafuso@gmail.com</li>
+              <li><a target="_blank" href="images/shari_afuso_resume.pdf">Resume</a></li>
+              <li><a target="_blank" href="https://www.linkedin.com/in/shari-afuso-b5b9a2a6">LinkedIn</a></li>
+            </li>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+    {% include footer.html %}
+
+  </body>
+
+</html>

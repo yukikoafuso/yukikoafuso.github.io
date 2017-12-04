@@ -1,0 +1,27 @@
+<header class="site-header" role="banner">
+
+  <div class="wrapper">
+    {% assign default_paths = site.pages | map: "path" %}
+    {% assign page_paths = site.header_pages | default: default_paths %}
+    <!--<a class="site-title" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>-->
+    <a class="site-title" href="{{ "/" | relative_url }}">SA</a>  
+    {% if page_paths %}
+      <nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon"> 
+            Contact Info
+          </span>
+        </label>
+
+        <div class="trigger">
+            <ul>
+              <li class="page-link contact-info">818.357.4681</li>
+              <li class="page-link contact-info">shariafuso@gmail.com</li>
+              <li><a class="page-link" target="_blank" href="images/shari_afuso_resume.pdf">Resume</a></li>
+            </ul>
+        </div>
+      </nav>
+    {% endif %}
+  </div>
+</header>
