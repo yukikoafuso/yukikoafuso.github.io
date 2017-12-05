@@ -7,25 +7,29 @@ thumbnail-image: /images/posts/vizio-pq-tlj-thumbnail.jpg
 ---
 
 
-- There are chiefly three different types of glass which can be used on watches: acrylic, mineral.
-- Some materials are more expensive than others, but all have different properties which potentially render them equally useful as long as you understand the advantages and 
-- limitations of each.
+- drive brand awareness for VIZIO, a leading consumer electronics company
+- showcase superior picture quality on VIZIO TVs/displays, through beautiful and bright images of the Star Wars movie
+- promote XLED, one of VIZIO's main picture quality technologies
 
 <br>
-- test
-- Some materials are more expensive than others, but all have different properties which potentially render them equally useful as long as you understand the advantages and 
-- limitations of each.
+- design all digital creative assets for the campaign
+- ensure brand guidelines are satisfied for both VIZIO and Disney
+- collaborate with development team and corporate team + manage execution of all digital assets 
 
 <div class="clear-float"></div>
 
 <ul class="post-images">
 	<li>
-		<p>vizio.com homepage marquee</p>
-		<img src="/images/posts/vizio-pq-tlj-1.jpg" alt="Vizio.com Homepage Marquee">
+		<p>VIZIO.com Homepage Marquee</p>
+		<img src="/images/posts/vizio-pq-tlj-1.jpg" alt="VIZIO.com Homepage Marquee">
 	</li>
 	<li>
-		<p>vizio.com homepage marquee</p>
-		<img src="/images/posts/vizio-pq-tlj-1.jpg" alt="Vizio.com Homepage Marquee">
+		<p>VIZIO.com Store Homepage</p>
+		<img src="/images/posts/vizio-pq-tlj-2.jpg" alt="VIZIO.com Store Homepage">
+	</li>
+	<li>
+		<p>Web Banners</p>
+		<img src="/images/posts/vizio-pq-tlj-3.jpg" alt="VIZIO.com Web Banners">
 	</li>
 
 </ul>
