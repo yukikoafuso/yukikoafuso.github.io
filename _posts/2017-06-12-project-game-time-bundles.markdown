@@ -16,7 +16,7 @@ thumbnail-image: /images/posts/vizio-gametime-thumbnail.jpg
 
 <ul class="post-images">
 	<li>
-		<p>vizio.com social assets</p>
+		<p>vizio.com landing page</p>
 		<img src="/images/posts/vizio-gametime-1.jpg" alt="Vizio.com Game Time Bundle Landing Page">
 	</li>
 
