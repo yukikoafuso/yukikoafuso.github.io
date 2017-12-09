@@ -186,22 +186,23 @@ a:visited { color: #353535; }
 .highlight .vi { color: #008080; }
 .highlight .il { color: #099; }
 
-a.site-title:hover { list-style-type: none; text-decoration: none; }
-
 .border-top { border-top: solid 15px #353535; }
 
 .site-header { border-top: initial; border-bottom: initial; }
 .site-header .menu-icon { font-family: "Nunito Sans", sans-serif; font-weight: 900; text-align: right; }
-
-.wrapper { margin-bottom: 50px; }
+.site-header .arrow-back { margin-right: 13px; }
+.site-header .wrapper { display: flex; align-items: center; }
+.site-header .site-title { padding: 0px; margin: 0px; display: flex; line-height: initial; position: relative; width: 87px; overflow: hidden; }
+.site-header .site-title-inner { display: flex; position: relative; left: -45px; }
+.site-header a.site-title:hover { list-style-type: none; text-decoration: none; }
+.site-header li { font-family: "Nunito Sans", sans-serif; font-size: 14px; color: #353535; display: inline; }
+.site-header .site-nav { margin-left: auto; }
+.site-header .contact-info { border-right: solid 3px #353535; padding-right: 20px; }
+.site-header .wrapper { margin-bottom: 50px; margin-top: 11px; }
 
 h1 { font-family: "Nunito Sans", sans-serif; font-weight: 900; text-align: center; line-height: 75px; color: #353535; padding-bottom: 29px; padding-top: 18px; border-bottom: solid 15px #353535; }
 
 h2 { font-family: "Nunito Sans", sans-serif; font-weight: 900; font-size: 23px; color: #353535; margin-bottom: 5px; }
-
-.site-header li { font-family: "Nunito Sans", sans-serif; font-size: 14px; color: #353535; display: inline; }
-.site-header .site-title { color: #353535; border: solid 4px; padding: 5px 9px; font-size: 14px; line-height: initial; margin-top: 10px; }
-.site-header .contact-info { border-right: solid 3px #353535; padding-right: 20px; }
 
 p { font-family: "Nunito Sans", sans-serif; font-size: 14px; }
 

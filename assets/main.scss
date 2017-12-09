@@ -14,14 +14,12 @@ $fontsizesmall: 14px;
 $lineheightlarge: 75px;
 $bold: 900;
 
-a.site-title:hover {  
-    list-style-type: none;
-    text-decoration: none;
-}
 
 .border-top {
     border-top: solid 15px #353535;
 }
+
+
 
 .site-header {
     border-top: initial;
@@ -32,11 +30,63 @@ a.site-title:hover {
         font-weight: $bold;   
         text-align: right; 
     }
+
+    .arrow-back {
+        margin-right: 13px;
+    }
+
+    .wrapper {
+        display: flex;
+        align-items: center;
+    }
+
+    .site-title {
+        padding: 0px;
+        margin: 0px;
+        display: flex;
+        line-height: initial;
+        position: relative;
+        width: 87px;
+        overflow: hidden;
+    }
+
+    .site-title-inner {
+        display: flex;
+        position: relative;
+        left: -45px;
+    }
+
+    a.site-title:hover {  
+        list-style-type: none;
+        text-decoration: none;
+    }
+
+
+
+
+    li {
+        font-family: $primaryfont;
+        font-size: $fontsizesmall;
+        color: $primarycolor;
+        display: inline;
+    }
+
+    .site-nav {
+        margin-left: auto;
+    }
+
+    .contact-info {
+        border-right: solid 3px $primarycolor;
+        padding-right: 20px;
+    }
+    
+    .wrapper {
+        margin-bottom: 50px;
+        margin-top: 11px;
+    }
 }
 
-.wrapper {
-    margin-bottom: 50px;
-}
+
 
 h1{
 	font-family: $primaryfont;
@@ -55,29 +105,6 @@ h2 {
     font-size: $fontsizemedium;
     color: $primarycolor;
     margin-bottom: 5px;
-}
-
-.site-header{
-  li {
-      font-family: $primaryfont;
-      font-size: $fontsizesmall;
-      color: $primarycolor;
-      display: inline;
-  }
-
-  .site-title {
-    color: $primarycolor;
-    border: solid 4px;
-    padding: 5px 9px;
-    font-size: $fontsizesmall;
-    line-height: initial;  
-    margin-top: 10px;
-  }
-
-  .contact-info {
-    border-right: solid 3px $primarycolor;
-    padding-right: 20px;
-  }
 }
 
 p {

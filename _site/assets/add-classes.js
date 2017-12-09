@@ -1,4 +1,5 @@
 /*ADD "THE OVERVIEW", "THE ROLE", OUTER DIVS, AND REMOVE PARAGRAPH*/
+/*DISPLAY ARROW IN MENU*/
 window.onload = function(){
 
 
@@ -36,6 +37,57 @@ window.onload = function(){
     //REMOVE 1st PARAGRAPH TAG BETWEEN LISTS
     var para3 = document.getElementById('post-content-outer').getElementsByTagName('p')[0];
     para3.parentNode.removeChild(para3);
+
+
+
+
+    //DISPLAY ARROW IN MENU
+    var elem = document.getElementById("js-animate-right"); 
+    //var pos = 0;  
+    var pos = getCssProperty("js-animate-right", "left");
+    pos = pos.substring(0, pos.length-2);
+    var id = setInterval(moveRight, 15);
+
+    function moveRight() {
+        if (pos == 0) {
+          clearInterval(id);
+        } else {
+          pos++; 
+          elem.style.left = pos + 'px'; 
+        }
+    }
+
+    function getCssProperty(elmId, property){
+        var elem = document.getElementById(elmId);
+        return window.getComputedStyle(elem,null).getPropertyValue(property);
+    }
+    
+
+    //REMOVE ARROW IN MENU
+    var link1 = document.getElementsByTagName('a')[0];
+    link1.onclick = clickHandler;
+
+    function clickHandler(event) {
+        event.preventDefault();
+        var travelTo = this.getAttribute("href");
+
+        id = setInterval(moveLeft, 15);
+
+        // delay page out until the animation finishes
+        setTimeout(function() {
+          window.location.href = travelTo;
+        }, 1000);
+    };
+
+    function moveLeft() {
+        if (pos == -45) {
+          clearInterval(id);
+        } else {
+          pos--; 
+          elem.style.left = pos + 'px'; 
+        }
+    }
+
 
 
 }
