@@ -2,7 +2,7 @@
 layout: post
 title:  "VIZIO Picture Quality Campaign"
 permalink: vizio-picture-quality-campaign
-categories: [all, web, social]
+categories: [all, web design, social assets]
 thumbnail-image: /images/posts/vizio-pq-tlj-thumbnail.jpg
 ---
 

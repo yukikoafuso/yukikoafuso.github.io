@@ -2,7 +2,7 @@
 layout: post
 title:  "Google Play App Announcement"
 permalink: google-play-app-announcement
-categories: [all, email, social]
+categories: [all, email design, social assets]
 thumbnail-image: /images/posts/vizio-ww-thumbnail.jpg
 ---
 
