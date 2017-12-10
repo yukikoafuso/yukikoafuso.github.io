@@ -26,9 +26,10 @@ $bold: 900;
     border-bottom: initial;
 
     .menu-icon {
-        font-family: $primaryfont;
-        font-weight: $bold;   
-        text-align: right; 
+        font-family: $primaryfont;  
+        text-align: center; 
+        font-size: 13px;
+        line-height: initial;
     }
 
     .arrow-back {
@@ -73,6 +74,10 @@ $bold: 900;
 
     .site-nav {
         margin-left: auto;
+    }
+
+    .logo {
+        display: flex;
     }
 
     .contact-info {
@@ -267,8 +272,44 @@ ul {
 }
 
 
+@media only screen and (min-width: 1024px) {
+.home .post-list {
+    .thumbnail-info {
+        margin-top: 7px;
+        top: 20px;
+
+    }
+    .thumbnail-title {
+        font-size: 25px;
+        line-height: 29px;
+        margin-bottom: 2px;
+        padding: 0px 10px;
+    }
+    .thumbnail-subtitle {
+        font-size: 12px;
+    }
+}
+
+}
+
 
 @media only screen and (max-width: 480px) {
+.site-nav {
+    top: 0px;
+
+    label {
+        background: $primarycolor;
+        color: white;
+        text-align: center;
+    }
+}
+
+.site-header {
+    .wrapper {
+        margin-bottom: 0px;
+    }
+}
+
 h1 {
     line-height: 46px;
     padding-bottom: 35px;
@@ -315,6 +356,18 @@ h1 {
     }
 }
 
+.page-content {
+        padding: 5vw 0;
+}
+.post-header {
+        margin-bottom: 0px;
+}
+
+h1 {
+    padding-bottom: 3vw;
+    padding-top: 2vw;
+    margin-bottom: 6vw;
+}
 
 
 .post-content{
@@ -325,6 +378,21 @@ h1 {
     .role{
         width: 100%;
         float: initial;
+    }
+
+    .post-images li {
+        padding: 35px 18px;
+    }
+
+    .post-images p{
+        padding-bottom: 0px;
+        line-height: 7vw;
+        font-size: 5vw;
+    }
+
+    .overview ul li, .role ul li {
+        list-style-type: square;
+        margin-left: 17px;
     }
 }
 
