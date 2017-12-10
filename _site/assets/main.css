@@ -228,6 +228,7 @@ ul li { font-family: "Nunito Sans", sans-serif; font-size: 14px; margin-bottom: 
 .home .clear-float { margin-bottom: 55px; }
 
 .post-content .overview { width: 48%; float: left; }
+.post-content .overview a { text-decoration: underline; }
 .post-content .role { width: 48%; float: right; }
 .post-content .post-images li { background-color: #ededed; padding: 45px 57px 57px 57px; }
 .post-content .post-images p { text-align: center; color: #353535; padding-bottom: 24px; }

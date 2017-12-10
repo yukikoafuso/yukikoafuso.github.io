@@ -221,6 +221,10 @@ ul {
     .overview{
         width: 48%;
         float: left;
+
+        a {
+            text-decoration: underline;
+        }
     }
     .role{
         width: 48%;
