@@ -8,7 +8,7 @@ thumbnail-image: /images/posts/vizio-ww-thumbnail.jpg
 
 
 - Announce that the Google Play app is now available on VIZIO SmartCast TVs
-- Partner with Google Play to promote VIZIO SmartCast as well as the Wonder Woman movie.
+- Partner with Google Play to promote VIZIO SmartCast as well as the Wonder Woman movie
 
 <br>
 - Software: Photoshop

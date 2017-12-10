@@ -8,7 +8,7 @@ thumbnail-image: /images/posts/vizio-pq-tlj-thumbnail.jpg
 
 
 - Drive brand awareness for VIZIO, a leading consumer electronics company
-- Showcase superior picture quality on VIZIO TVs/displays, through beautiful and bright images of the Star Wars movie
+- Showcase superior picture quality on VIZIO TVs, through beautiful and bright images of the Star Wars movie
 - Promote XLED, one of VIZIO's main picture quality technologies
 
 <br>

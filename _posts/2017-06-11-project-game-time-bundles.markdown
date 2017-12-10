@@ -6,7 +6,7 @@ categories: [all, web design, web development]
 thumbnail-image: /images/posts/vizio-gametime-thumbnail.jpg
 ---
 
-- Game Time Bundles is a seasonal marketing campaign focused around the football season and watching great games on great TVs.
+- Game Time Bundles is a seasonal marketing campaign focused around the football season and watching great games on great TVs
 - Drive TV & sound bar sales on VIZIO.com through bundle promotions
 
 <br>
