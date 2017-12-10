@@ -10,7 +10,8 @@ thumbnail-image: /images/posts/vizio-gametime-thumbnail.jpg
 - Drive TV & sound bar sales on VIZIO.com through bundle promotions
 
 <br>
-- Design & develop game time bundle landing page in Magento
+- Software / Languages: Photoshop, Magento, HTML, CSS, FileZilla
+- Design & develop game time bundle landing page
 
 <div class="clear-float"></div>
 

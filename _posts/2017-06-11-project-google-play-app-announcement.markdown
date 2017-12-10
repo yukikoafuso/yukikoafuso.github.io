@@ -11,7 +11,8 @@ thumbnail-image: /images/posts/vizio-ww-thumbnail.jpg
 - Partner with Google Play to promote VIZIO SmartCast as well as the Wonder Woman movie.
 
 <br>
-- Design social assets
+- Software: Photoshop
+- Design social assets for the announcement
 - Design email asset
 
 <div class="clear-float"></div>
