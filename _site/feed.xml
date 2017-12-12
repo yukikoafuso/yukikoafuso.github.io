@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-12-10T14:57:05-08:00</updated><id>http://localhost:4000/</id><title type="html">Shari Afuso, Web Designer.</title><subtitle>Web designer &amp; photographer, currently working for VIZIO.</subtitle><author><name>Shari Afuso</name></author><entry><title type="html">VIZIO Picture Quality Campaign</title><link href="http://localhost:4000/vizio-picture-quality-campaign" rel="alternate" type="text/html" title="VIZIO Picture Quality Campaign" /><published>2017-06-13T00:00:00-07:00</published><updated>2017-06-13T00:00:00-07:00</updated><id>http://localhost:4000/project-vizio-pq-campaign</id><content type="html" xml:base="http://localhost:4000/vizio-picture-quality-campaign">&lt;ul&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-12-11T17:48:41-08:00</updated><id>http://localhost:4000/</id><title type="html">Shari Afuso, Web Designer.</title><subtitle>Web designer &amp; photographer, currently working for VIZIO.</subtitle><author><name>Shari Afuso</name></author><entry><title type="html">VIZIO Picture Quality Campaign</title><link href="http://localhost:4000/vizio-picture-quality-campaign" rel="alternate" type="text/html" title="VIZIO Picture Quality Campaign" /><published>2017-06-13T00:00:00-07:00</published><updated>2017-06-13T00:00:00-07:00</updated><id>http://localhost:4000/project-vizio-pq-campaign</id><content type="html" xml:base="http://localhost:4000/vizio-picture-quality-campaign">&lt;ul&gt;
   &lt;li&gt;Drive brand awareness for VIZIO, a leading consumer electronics company&lt;/li&gt;
   &lt;li&gt;Showcase superior picture quality on VIZIO TVs, through beautiful and bright images of the Star Wars movie&lt;/li&gt;
   &lt;li&gt;Promote XLED, one of VIZIO’s main picture quality technologies&lt;/li&gt;
@@ -67,7 +67,7 @@
 &lt;div class=&quot;clear-float&quot;&gt;&lt;/div&gt;
 
 &lt;ul class=&quot;post-images&quot;&gt;
-	&lt;a href=&quot;/images/posts/vizio-gametime-landing-page.html&quot;&gt;
+	&lt;a href=&quot;/vizio-gametime-landing-page.html&quot;&gt;
 		&lt;li&gt;
 			&lt;p&gt;vizio.com landing page&lt;/p&gt;
 			&lt;img src=&quot;/images/posts/vizio-gametime-1.jpg&quot; alt=&quot;Vizio.com Game Time Bundle Landing Page&quot; /&gt;
