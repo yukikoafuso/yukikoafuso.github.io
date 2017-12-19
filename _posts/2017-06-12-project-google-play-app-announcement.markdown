@@ -19,11 +19,11 @@ thumbnail-image: /images/posts/vizio-ww-thumbnail.jpg
 
 <ul class="post-images">
 	<li>
-		<p>vizio.com social assets</p>
+		<p>VIZIO.com Social Assets</p>
 		<img src="/images/posts/vizio-ww-1.jpg" alt="Vizio.com Social Media">
 	</li>
 	<li>
-		<p>vizio.com email design</p>
+		<p>VIZIO.com Email Design</p>
 		<img src="/images/posts/vizio-ww-2.jpg" alt="Vizio.com Email">
 	</li>
 
