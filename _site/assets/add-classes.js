@@ -11,7 +11,7 @@ window.onload = function(){
     wrapper.classList.add("overview");
     // create h2 tag
     var title = document.createElement('h2');
-    title.innerHTML = "the overview";
+    title.innerHTML = "the inspiration";
     // insert wrapper before para1 in the DOM tree
     para1.parentNode.insertBefore(wrapper, para1);
     //move h2 and para into wrapper
@@ -27,7 +27,7 @@ window.onload = function(){
     wrapper2.classList.add("role");
     // create h2 tag
     var title2 = document.createElement('h2');
-    title2.innerHTML = "the role";
+    title2.innerHTML = "the medium";
     // insert wrapper before para1 in the DOM tree
     para2.parentNode.insertBefore(wrapper2, para2);
     //move h2 and para into wrapper

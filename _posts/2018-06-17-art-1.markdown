@@ -1,0 +1,21 @@
+---
+layout: post
+title:  "The Sound of Waves"
+permalink: the-sound-of-waves
+categories: [all, web design, web development]
+thumbnail-image: /images/posts/yukiko-afuso-drawing-1-thumbnail.png
+---
+
+- Coming Soon.
+
+<br>
+- Coming Soon.
+
+<div class="clear-float"></div>
+
+<ul class="post-images">
+	<img src="/images/posts/yukiko-afuso-drawing-1-pdp_5.jpg" alt="Drawing">
+</ul>
+
+
+

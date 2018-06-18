@@ -212,7 +212,7 @@ ul li a:hover { text-decoration: none; }
 ul li { font-family: "Nunito Sans", sans-serif; font-size: 14px; margin-bottom: 9px; }
 
 .home { /*info section*/ }
-.home .post-list > li { display: inline; width: 31.333%; float: left; text-align: center; margin-top: 1.5%; margin-bottom: 1.5%; margin-left: 1.5%; margin-right: 1.5%; position: relative; }
+.home .post-list > li { display: inline; width: 31.333%; float: left; text-align: center; margin-top: 1.5%; margin-bottom: 4.5%; margin-left: 1.5%; margin-right: 1.5%; position: relative; }
 .home .post-list > li:nth-child(3n+3) { margin-right: 0px; }
 .home .post-list > li:nth-child(3n+1) { margin-left: 0px; }
 .home .post-list img { width: 100%; }
