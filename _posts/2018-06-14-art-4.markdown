@@ -1,0 +1,21 @@
+---
+layout: post
+title:  "Dancer"
+permalink: dancer
+categories: [all, web design, web development]
+thumbnail-image: /images/posts/yukiko-afuso-drawing-4-thumbnail.png
+---
+
+- Coming Soon.
+
+<br>
+- Coming Soon.
+
+<div class="clear-float"></div>
+
+<ul class="post-images">
+	<img src="/images/posts/yukiko-afuso-drawing-4-pdp.jpg" alt="Drawing">
+</ul>
+
+
+
